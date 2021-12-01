@@ -8,6 +8,9 @@
 ## Set up MM2
 - (https://medium.com/larus-team/how-to-setup-mirrormaker-2-0-on-apache-kafka-multi-cluster-environment-87712d7997a4)
 - (https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker)
+- (https://towardsdatascience.com/10-configs-to-make-your-kafka-producer-more-resilient-ec6903c63e3f)
+- (https://www.cloudkarafka.com/blog/kafka-producer-side-settings-explained-linger-ms-and-batch-size.html)
+- 
 
 ## Tunning
 - (https://engineering.salesforce.com/mirrormaker-performance-tuning-63afaed12c21)
@@ -16,6 +19,11 @@
 
 ##IBM mirror maker
 - (https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker/)
+- 
+- (https://community.cloudera.com/t5/Community-Articles/Kafka-Mirror-Maker-Best-Practices/ta-p/249269)
+
+##NEW RELIC RECOMMENDATIONS - INTERESTING
+- (https://newrelic.com/blog/best-practices/kafka-best-practices#:~:text=Tune%20your%20consumer%20socket%20buffers,bytes%20%2C%20which%20defaults%20to%2064kB.)
   
 
 
@@ -27,6 +35,10 @@
 
 ##StackOverflow
 - (https://stackoverflow.com/questions/59390555/is-it-possible-to-replicate-kafka-topics-without-alias-prefix-with-mirrormaker2)
+
+
+##MM performance
+- (https://medium.com/metrosystemsro/apache-kafka-how-to-test-performance-for-clients-configured-with-ssl-encryption-3356d3a0d52b)
 
 - MirrorMaker not renamming 
   - set up this conf in mm2
@@ -52,3 +64,11 @@
     #ot2dev.ssl.keystore.location = /data1/conf/kafka/ssl/kafka_connect.keystore.jks
     #ot2dev.ssl.keystore.password = 5e6f8a40a3424255abf76a22e308ae8b
     ```
+
+
+##EXACTLY ONCE DELIVER
+- (https://cwiki.apache.org/confluence/display/KAFKA/KIP-656%3A+MirrorMaker2+Exactly-once+Semantics)
+- (https://towardsdatascience.com/exactly-once-semantics-across-multiple-kafka-instances-is-possible-20bf900c29cf)
+- (https://github.com/apache/kafka/pull/9451)
+- https://github.com/ning2008wisc/kafka-producer-consumer-test
+- (https://docs.google.com/document/d/11Jqy_GjUGtdXJK94XGsEIK7CP1SnQGdp2eF0wSw9ra8/edit)
