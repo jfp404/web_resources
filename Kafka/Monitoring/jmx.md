@@ -8,4 +8,23 @@ jconsole.exe -debug -J-Djava.util.logging.config.file=./logging.properties servi
 ```
 JMXTERM
 - (https://rmoff.net/2018/09/19/exploring-jmx-with-jmxterm/)
+
+
+## Monitoring post collection
+
+- DataDog Post (https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
+- Instaclustr (https://www.instaclustr.com/support/documentation/kafka/monitoring-information/)
+
+## JMXTOOL
+- StackOverFlow, how to use jmxtool (https://stackoverflow.com/questions/36708384/how-to-enable-remote-jmx-on-kafka-brokers-for-jmxtool)
+- (https://jaceklaskowski.gitbooks.io/apache-kafka/content/kafka-tools-JmxTool.html)
 - 
+
+
+## Understanding Kafka
+
+- The internals of kafka (https://jaceklaskowski.gitbooks.io/apache-kafka/content/)
+  - Good read to understand Kafka
+  
+## Mirror maker monitoring
+- (https://github.com/apache/kafka/tree/trunk/connect/mirror)

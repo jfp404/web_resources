@@ -1,6 +1,20 @@
 # Kafka Cluster migrations
 ## Active -> Passive pattern
 
+## Tools
+* Brooklin from Linkedin
+* Uber uReplicator from Uber
+* Mirus from Salesforce
+* MirrorMaker 2
+* (https://github.com/klarna/brucke)[Brucke]
+
+
+### Cloudera (1) 
+- (https://docs.cloudera.com/runtime/7.2.10/kafka-managing/topics/kafka-manage-cli-reassign-overview.html)
+- 
+### RedHat Admin
+- (https://access.redhat.com/documentation/ja-jp/red_hat_amq/2021.q3/html/using_amq_streams_on_openshift/assembly-deployment-configuration-str#assembly-config-kafka-str)
+  
 ### dale lane blog (must check)
 - (https://dalelane.co.uk/blog/?p=4303)
 
@@ -10,6 +24,8 @@
 - (https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker)
 - (https://towardsdatascience.com/10-configs-to-make-your-kafka-producer-more-resilient-ec6903c63e3f)
 - (https://www.cloudkarafka.com/blog/kafka-producer-side-settings-explained-linger-ms-and-batch-size.html)
+- (https://atchison.dev/running-mirrormaker-2-0-with-confluents-schema-registry/)
+  
 - 
 
 ## Tunning
@@ -17,12 +33,12 @@
 - (https://wmclane.medium.com/how-to-optimize-mirrormaker2-for-high-performance-apache-kafka-replication-697bc5089c64)
 - (https://towardsdatascience.com/spin-up-new-mirrormaker-in-5-minutes-a28c14bcde9f)
 
-##IBM mirror maker
+## IBM mirror maker
 - (https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker/)
 - 
 - (https://community.cloudera.com/t5/Community-Articles/Kafka-Mirror-Maker-Best-Practices/ta-p/249269)
 
-##NEW RELIC RECOMMENDATIONS - INTERESTING
+## NEW RELIC RECOMMENDATIONS - INTERESTING
 - (https://newrelic.com/blog/best-practices/kafka-best-practices#:~:text=Tune%20your%20consumer%20socket%20buffers,bytes%20%2C%20which%20defaults%20to%2064kB.)
   
 
@@ -39,6 +55,8 @@
 
 ##MM performance
 - (https://medium.com/metrosystemsro/apache-kafka-how-to-test-performance-for-clients-configured-with-ssl-encryption-3356d3a0d52b)
+- (https://docs.datafabric.hpe.com/62/ClusterAdministration/data/streams/hpe-mirror-maker-2.html)
+- 
 
 - MirrorMaker not renamming 
   - set up this conf in mm2
